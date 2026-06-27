@@ -12,7 +12,7 @@ from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 # --- Configuration ---
 ROOT_DIR = Path("D:/").resolve()
 USERNAME = "admin"
-PASSWORD = "123"
+PASSWORD = "use_your_own_password"
 
 # --- FastAPI Setup ---
 app = FastAPI()
